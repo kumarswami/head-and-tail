@@ -1,0 +1,23 @@
+Usage: ./project [OPTION]... [FILE]...
+Print the last 10 lines of each FILE to standard output.
+With more than one FILE, precede each with a header giving the file name.
+
+With no FILE, or when FILE is -, read standard input.
+
+Mandatory arguments to long options are mandatory for short options too.
+  -c, --bytes=[+]NUM       output the last NUM bytes; or use -c +NUM to
+                             output starting with byte NUM of each file.
+                             
+  -f, --follow[={name|descriptor}]
+                           output appended data as the file grows;
+                             an absent option argument means 'descriptor'.
+                             
+  -n,      output the last NUM lines, instead of the last 10;
+                             or use -n +NUM to output starting with line NUM
+      
+  -q, --quiet, --silent    never output headers giving file names.
+  
+  -v, --verbose            always output headers giving file names
+  
+  --help                   display this help and exit
+ 
